@@ -88,19 +88,26 @@ Available at: http://localhost:8501
 
 **1. Upload Shipment Data**  
 Upload your CSV file containing shipment information.
+
 ![Shipment Data](documentation/one.png)
 
 **2. Select Risk Focus Columns**  
 Choose columns that might indicate potential shipment risks.
+
 ![risk focus](documentation/two.png)
+
+![risk focus](documentation/three.png)
 
 **3. Run Risk Scorer**  
 Launch the AI agent to score all shipments dynamically.
-![risk score](documentation/three.png)
+
+![risk score](documentation/six.png)
 
 **4. View and Download Results**  
 Visualize risk distribution and download enriched shipment data.
+
 ![results](documentation/four.png)
+
 ![results](documentation/five.png)
 
 ---
