@@ -34,3 +34,51 @@ Agentic Logistics AI provides an intuitive platform where:
 
 ## 🛠️ Project Structure
 
+agentic_logistics_ai/ 
+│
+├── app/ # Backend FastAPI application 
+|     │ 
+|     ├── init.py # Initialization file 
+|     │ 
+|     ├── agent.py # Core AI risk scoring logic 
+|     │ 
+|     ├── database.py # SQLite database operations 
+|     │ 
+|     ├── main.py # Starts FastAPI server 
+|     │ 
+|     ├── routes.py # API routes for frontend to interact with backend 
+|     │ 
+|     ├── news_api.py # (Future) News API integration 
+|     ├── weather_api.py # (Future) Weather API integration 
+│ 
+├── data/ # Example data and database 
+|     │ 
+|     ├── shipments.db # SQLite database storing shipment records 
+|     │ 
+|     ├── Train.csv # Full dataset 
+|     │ 
+|     ├── Train_small.csv # Small sample dataset 
+├── frontend/ # Streamlit dashboard UI 
+|     ├── dashboard.py # Frontend Streamlit app 
+|     │ 
+|     ├── bg.jpg # Background image for UI 
+|     │ 
+|     ├── documentation/ # Screenshots and diagrams 
+|           │     
+|           ├── one.png 
+|           │ 
+|           ├── two.png 
+|           │ 
+|           ├── three.png 
+|           │ 
+|           ├── four.png
+│           │ 
+|           ├──system_diagram.png # System architecture diagram 
+├── scripts/ # (Reserved for future utility scripts) 
+├── .env # Environment variables 
+├── Dockerfile # Docker container setup 
+├── main.py # Backend entrypoint (FastAPI) 
+├── requirements.txt # Python dependency list 
+├── README.md # This file
+
+
