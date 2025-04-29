@@ -118,3 +118,20 @@ Visualize risk distribution and download enriched shipment data.
 - **Smart Re-Routing:** AI suggestions to mitigate or avoid high-risk shipments.
 
 ---
+
+## 🛠️ Built With
+
+- Python 3.10+
+- FastAPI — Backend REST API framework
+- Streamlit — Interactive Frontend Dashboard
+- SQLite — Lightweight database for shipments
+- Plotly Express — Dynamic visualizations (Pie Charts, Bar Graphs)
+- Docker — (Optional) Containerization ready
+- Pandas — Data processing
+- Requests — HTTP requests handling
+
+## 👨‍💻 Author
+Developed and maintained by **Anand Khanna**.
+Feel free to connect on LinkedIn (https://linkedin.com/in/anandkhanna15/) or explore more at Portfolio Website (https://anand-1502.github.io/)!
+
+
